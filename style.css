@@ -1,0 +1,115 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.nav {
+  position: absolute;
+  display: flex;
+  place-items: center;
+  /* background-color: red; */
+  padding: 17px 34px;
+  position: relative;
+  z-index: 1;
+}
+ul {
+  display: flex;
+  gap: 39px;
+  margin-left: 56px;
+}
+.SIGINBTN {
+  position: absolute;
+  right: 30px;
+}
+.btn {
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.right {
+}
+.main {
+  height: 100vh;
+  display: flex;
+  padding: 50px;
+  position: relative;
+}
+h1 {
+  font-size: 58px;
+  font-weight: 800;
+}
+.note {
+  margin-top: 30px;
+  font-size: 26px;
+  line-height: 26px;
+}
+.left {
+  width: 500px;
+  font-family: Plus Jakarta Sans;
+  text-align: left;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  line-height: normal;
+}
+.right {
+  position: absolute;
+  right: 100px;
+}
+.input {
+  width: 100%;
+  margin-top: 30px;
+  width: 476px;
+  height: 60px;
+  top: 558px;
+  left: 157px;
+  gap: 0px;
+  opacity: 0px;
+}
+input {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.btn2 {
+  position: absolute;
+  right: 30px;
+  margin-top: 6px;
+  width: Fixed (179px) px;
+  height: Fixed (56px) px;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: black;
+}
+.notes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.no {
+  font-size: 42px;
+  font-weight: 500;
+}
+.first {
+  display: flex;
+  place-items: center;
+  gap: 5px;
+}
