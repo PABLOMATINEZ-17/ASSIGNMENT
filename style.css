@@ -70,6 +70,7 @@ h1 {
 .right {
   position: absolute;
   right: 100px;
+  position: fixed;
 }
 .input {
   width: 100%;
