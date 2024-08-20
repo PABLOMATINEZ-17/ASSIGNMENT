@@ -65,6 +65,7 @@ h1 {
   left: 200px;
   top: 100px;
   line-height: normal;
+  position: fixed;
 }
 .right {
   position: absolute;
