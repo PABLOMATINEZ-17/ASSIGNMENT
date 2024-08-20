@@ -40,7 +40,6 @@ ul {
   color: white;
 }
 .right {
-  position: fixed;
 }
 .main {
   height: 100vh;
@@ -65,11 +64,10 @@ h1 {
   left: 200px;
   top: 100px;
   line-height: normal;
-  position: fixed;
 }
 .right {
+  position: absolute;
   right: 100px;
-  position: fixed;
 }
 .input {
   width: 100%;
