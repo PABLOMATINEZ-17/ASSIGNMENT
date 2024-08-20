@@ -40,6 +40,7 @@ ul {
   color: white;
 }
 .right {
+  position: fixed;
 }
 .main {
   height: 100vh;
